@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1110px;
+  margin-inline:auto ;
+}
+
+.topheader {
+  margin-block: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topheader-links , .shopping-icons {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.topheader-links a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.howtocook {
+  margin-top: 80px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+
+}
+.macbook-details{
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.macbook-details p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.top-page hr {
+  margin-top: 16px;
+  margin-bottom: 24px;
+} 
+
+.top-page img {
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.top-page p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.imac-part {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.imac-part h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.imac-part p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.article {
+  background-color:#ecf1f8 ;
+  width: 1110px;
+  padding: 96px 124px 16px 126px ;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.article h2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.article p {
+  padding-block: 16px 66px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.apple-watch {
+  margin-block: 80px;
+  display: flex;
+  gap:24px ;
+}
+
+.apple-watch h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.apple-watch p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.apple-watch img {
+  border-radius: 6px;
+}
+
+.trailer {
+  margin-bottom: 48px;
+}
+.trailer h1 {
+  margin-bottom: 32px;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.advices {
+  display: flex;
+  gap:24px ;
+  margin-bottom: 80px;
+}
+
+.advice {
+  width: 354px;
+  padding: 16px 16px 24px 16px;
+}
+
+.advice h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.advice p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.columns {
+  margin-top: 72px;
+  width:165px ;
+}
+
+.columns h2 {
+  margin-left: 36px;
+  margin-bottom: 8px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+}
+
+.columns ul  {
+  list-style-type: none;
+}
+.columns ul li a {
+  color: #121212;
+  text-decoration: none;
+  font-family:"Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-right-side  h3 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+  margin-top: 72px;
+  margin-bottom: 24px;
+}
+
+.footer-right-side {
+  width: 354px;
+}
+
+.deep-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social-media-icons{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 24px;
+}
